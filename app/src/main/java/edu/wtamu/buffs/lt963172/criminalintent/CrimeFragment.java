@@ -53,7 +53,7 @@ public class CrimeFragment extends Fragment{
             public void afterTextChanged(Editable s) {
                 // This one too
             }
-            
+
         });
 
         mDateButton = (Button) v.findViewById(R.id.crime_date);
