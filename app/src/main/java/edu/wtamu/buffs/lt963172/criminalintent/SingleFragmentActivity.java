@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public abstract class SingleFragmentActivity extends AppCompatActivity {
-    protected abstract Fragment createFragment();
+    protected abstract CrimeListFragment createFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState){

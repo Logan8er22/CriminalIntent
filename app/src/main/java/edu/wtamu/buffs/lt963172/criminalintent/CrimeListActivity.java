@@ -1,7 +1,5 @@
 package edu.wtamu.buffs.lt963172.criminalintent;
 
-import android.support.v4.app.Fragment;
-
 /**
  * Created by lt963172 on 2/18/2018.
  */
@@ -9,7 +7,7 @@ import android.support.v4.app.Fragment;
 public class CrimeListActivity extends SingleFragmentActivity {
 
     @Override
-    protected Fragment createFragment() {
+    protected CrimeListFragment createFragment() {
         return new CrimeListFragment();
     }
 }
