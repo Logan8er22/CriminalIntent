@@ -1,9 +1,11 @@
 package edu.wtamu.buffs.lt963172.criminalintent;
 
+import android.support.v4.app.Fragment;
+
 public class CrimeActivity extends SingleFragmentActivity {
 
     @Override
-    protected CrimeListFragment createFragment() {
+    protected Fragment createFragment() {
         return new CrimeFragment();
     }
 }
